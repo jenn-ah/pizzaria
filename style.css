@@ -1,0 +1,82 @@
+body {
+    background-image: url("assets/11432.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+}
+
+/* #topMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #ff1493;
+    height: 100%;
+    position: fixed; 
+    overflow: auto; 
+    display: block;
+    background-image: url("assets/wow1.jpg");
+} */
+
+/* #topMenu {
+    list-style-type: none;
+    margin: -5px;
+    padding: 0px;
+    width: 30%; 
+    background-color: #ff1493;
+    height: 100%; 
+    /* position: fixed; */
+    /* overflow: auto;
+    display: block;
+    background-image: url("assets/wow1.jpg"); 
+    background-attachment: fixed;
+}
+li a {
+    display: block;
+    width: 100%; */ 
+/* } */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#pizzaManPic {
+    visibility: hidden;
+}
+
+a:link {
+    color: black;
+    font-family: Baloo Bhai;
+    font-size: 25px;
+}
+
+a:hover {
+    color: hotpink;
+    background-color: black;
+    width: 100%;
+}
+
+#today {
+    display: inline;
+
+}
+.pizza {
+    float: left;
+    width: 25%; 
+    padding: 50px; 
+}
