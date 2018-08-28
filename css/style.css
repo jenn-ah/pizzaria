@@ -1,0 +1,192 @@
+body {
+    background-image: url("../assets/11432.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* margin: 0px; */
+    padding: 0px 0px 0px 350px;
+}
+
+#topMenu {
+    background-image: url("../assets/pizzalove.png");
+    background-repeat: no-repeat;
+    /* background-color: #ff1493; */
+    background-size: 330px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 20px; 
+    width: 300px;
+    padding: 5px 0px 0px 0px;
+}
+
+/* li a {
+    display: block;
+    width: 100%;
+} */
+
+#pizzaManPic {
+    width: 45%;
+    border-radius: 25px;
+    margin-left: 285px;
+    /* margin: auto;
+    padding: 10px; */
+}
+
+#pizzaManPic2 {
+    width: 45%;
+    border-radius: 25px;
+    margin-left: 285px;
+    /* margin: auto;
+    padding: 10px; */
+}
+
+#topMenu a:link {
+    color: black;
+    text-decoration: none;
+    font-family: Baloo Bhai;
+    font-size: 25px;
+    /* background-color: white; */
+    
+}
+
+a:hover {
+    color: #ff1493;
+    background-color: white;
+    width: 100%;
+    /* background-image: url("../assets/wow1.jpg");  */
+}
+
+#today {
+    display: inline;
+
+}
+.pizza {
+    display: inline-block;
+    text-align: center;
+    width: 50%; 
+    padding: 60px; 
+    border: solid 2px black;
+    background-color: rgba(0, 0, 255, 0.3);
+    /* box-align: center; */
+    margin: 2px;
+    margin-left: 200px;
+}
+
+.guide {
+    list-style-type: none;
+}
+
+.sectionTitle{
+    font-family: lobster;
+    font-size: 55px;
+    text-align: center;
+}
+
+.sectionTitle1{
+    font-family: lobster;
+    font-size: 55px;
+    text-align: center;
+}
+
+.pizzaName {
+    font-weight: bold;
+    text-align: center'
+}
+
+#name {
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 100px;
+}
+
+#subscribe {
+    /* float: left; */
+    overflow: auto;
+    border: 10px solid transparent;
+    /* padding: 15px; */
+    /* border-image: url("/assets/border.png") 20% round; */
+    border: dotted 3px black;
+    width: 50%;
+    padding: 60px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+#tagLine {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#visit {
+    /* display: inline-block; */
+    /* float: right; */
+    /* overflow: auto; */
+    background-image: url("../assets/feedpizza1.jpg"); 
+    /* background: rgba(0, 0, 0, 0.1);  */
+    background-repeat: no-repeat;
+    background-size: 300px;
+    margin-left: 375px;
+    /* margin-right: 300px; */
+    color: white;
+    width: 300px;
+    text-shadow: 10px 0px 10px #ff1493;
+    font-weight: bold;
+    /* margin: auto; */
+    
+    
+}
+
+#visit a:link {
+    color: #ff1493;
+    font-weight: bold;
+    text-shadow: 10px 0px 10px white;
+}
+
+/* .special {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {background-color: pink;}
+    to {background-color: white;} */
+
+.special {
+        animation-duration: 5s;
+        animation-iteration-count: infinite; 
+        animation-name: slidein;
+        text-align: center;
+        font-size: 20px;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%; 
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+/* #subBorder{
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url("/assets/border.png") 20% round;
+} */
+
+#credit {
+    float: left;
+    margin-left: 350px;
+}
+
+#copyright {
+    float: left;
+    margin-left: 370px;
+}
